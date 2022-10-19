@@ -1,0 +1,124 @@
+.modal-popup {
+  z-index: 1;
+  position: absolute;
+  top: 35%;
+  left: -11%;
+  .modal {
+    background-color: $modalBackgroundColor;
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    .modal-header {
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .modal-title {
+        font-size: 24px;
+      }
+    }
+    .modal-body {
+      padding: 0 32px 32px 32px;
+      .input-container {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        .mobile-input {
+          margin-top: 4px;
+          padding: 8px;
+        }
+      }
+    }
+    .modal-footer {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 32px 32px 32px;
+      .close-btn {
+        border: 1px solid black;
+        margin-right: 16px;
+        color: $submitBtn !important;
+      }
+      .submit-btn {
+        background-color: $submitBtn;
+      }
+    }
+  }
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: $btnFontColor;
+}
+
+.input {
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid $submitBtn;
+}
+
+.big-icon {
+  height: 64px;
+}
+
+.icon {
+  cursor: pointer;
+  height: 25px;
+}
+
+.error-text {
+  color: red;
+  font-size: 15px;
+}
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.ml-2 {
+  margin-left: 16px;
+}
+
+.ml-1 {
+  margin-left: 8px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.mr-1 {
+  margin-right: 8px;
+}
+
+.d-flex-row {
+  display: flex;
+}
+
+.hor-center {
+  justify-content: center;
+}
+
+.ver-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}

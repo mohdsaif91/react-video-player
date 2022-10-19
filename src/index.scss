@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+// We all love border radiuses
+.qr-image-wrapper section {
+  border-radius: 32px;
+  border: 4px dashed #1567c4;
+}
+
+// To get rid of the default red box-shadow
+.qr-image-wrapper section div {
+  box-shadow: unset !important;
+}
+
+@import "./Styles/variables";
+@import "./Styles/header";
+@import "./Styles/qrScanner";
+@import "./Styles/videoPage";
+@import "./Styles/util";

@@ -1,0 +1,34 @@
+.video-display {
+  margin-top: 32px;
+  .micro-phone-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    .input-icon {
+      position: relative;
+      top: 8px;
+      left: 48px;
+      border-right: 1px solid;
+      padding-right: 8px;
+    }
+    .search-bar {
+      width: 720px;
+      padding-left: 56px;
+      height: 40px;
+    }
+    .language-select {
+      height: 40px;
+    }
+  }
+  .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
